@@ -1,32 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <title>Frontend Mentor | Bento grid Franco</title>
-  <link rel="stylesheet" href="src/output.css">
-</head>
-<body>
-
-  Social Media 10x Faster with AI
-  Over 4,000 5-star reviews
-
-  Manage multiple accounts and platforms.
-
-  Maintain a consistent posting schedule.
-
-  Schedule to social media.
-  Optimize post timings to publish content at the perfect time for your audience.
-
-  Grow followers with non-stop content.
-
-  >56% faster audience growth
-
-  Create and schedule content quicker.
-
-  Write your content using AI.
-</body>
+    <title>Frontend Mentor | Bento grid Franco</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+    </style>
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body class="font-DMSans min-w-screen min-h-screen flex flex-col p-4 bg-gray-100">
+    <main class="grid grid-cols-1 gap-7 ">
+      <section
+        class="flex flex-col bg-purple-500 text-white  shadow-xl justify-center px-8 text-center min-w-full mx-auto p-10 rounded-lg items-center"
+      >
+        <h1 class="text-5xl tracking-wide font-medium mb-5 leading-11">
+          Social Media
+          <strong class="text-yellow-500 font-medium">10x</strong> Faster with
+          AI
+        </h1>
+        <img
+          src="/assets/images/illustration-five-stars.webp"
+          alt="five stars"
+          class="w-52 mb-2"
+        />
+        <p class="tracking-widest font-light">Over 4,000 5-star reviews</p>
+      </section>
+      <section
+        class="flex flex-col shadow-xs bg-white text-black  justify-center text-left min-w-full mx-auto p-3 rounded-lg items-center"
+      >
+        <img
+          src="/assets/images/illustration-multiple-platforms.webp"
+          alt="Socials"
+        />
+        <h1 class="font-medium text-2xl leading-6">
+          Manage multiple accounts and platforms.
+        </h1>
+      </section>
+      <section
+        class="flex flex-col shadow-xl bg-yellow-500 text-black  text-left min-w-full mx-auto p-3 pb-0 rounded-lg"
+      >
+        <h1 class="font-medium text-2xl mb-3 leading-6">
+          Maintain a consistent posting schedule.
+        </h1>
+        <img
+          src="/assets/images/illustration-consistent-schedule.webp"
+          alt="schedule"
+          class="max-w-40"
+        />
+      </section>
+      <section
+        class="flex flex-col shadow-xl bg-purple-100 text-black  text-center min-w-full mx-auto p-3 pb-0 rounded-lg"
+      >
+        <h1 class="font-semibold py-2 mb-2 text-xl">
+          Schedule to social media.
+        </h1>
+        <img
+          src="/assets/images/illustration-schedule-posts.webp"
+          alt="Posts Schedule"
+          class="max-w-full"
+        />
+        <p class="py-4 px-7 leading-5">
+          Optimize post timings to publish content at the perfect time for your
+          audience.
+        </p>
+      </section>
+      <section
+        class="flex flex-col shadow-xl bg-purple-500 text-white  text-center min-w-full mx-auto py-6 px-15 pb-0 rounded-lg"
+      >
+        <img
+          src="/assets/images/illustration-grow-followers.webp"
+          alt="Follows"
+          class="max-w-full mb-7"
+        />
+        <h1 class="text-3xl leading-6 mb-6">
+          Grow followers with non-stop content.
+        </h1>
+      </section>
+      <section
+        class="flex flex-col shadow-xs bg-white text-black  text-left min-w-full mx-auto p-4 pb-4 rounded-lg"
+      >
+        <h1 class="font-semibold text-4xl mb-1">>56%</h1>
+        <p class="mb-3">faster audience growth</p>
+        <img
+          src="/assets/images/illustration-audience-growth.webp"
+          alt="growth"
+          class="max-w-32"
+        />
+      </section>
+      <section
+        class="flex flex-col shadow-xs bg-yellow-100 text-black  text-left min-w-full mx-auto p-6 rounded-lg"
+      >
+        <h1 class="font-semibold text-2xl mb-4 leading-6">
+          Create and schedule content
+          <strong class="font-semibold italic text-purple-500">quicker.</strong>
+        </h1>
+        <img
+          src="assets/images/illustration-create-post.webp"
+          alt="create"
+          class="max-w-36"
+        />
+      </section>
+      <section
+        class="flex flex-col shadow-xl bg-yellow-500 text-black  text-left min-w-full mx-auto p-6 rounded-lg"
+      >
+        <h1 class="font-semibold text-2xl pr-5 mb-5 leading-6">
+          Write your content using AI.
+        </h1>
+        <img
+          src="/assets/images/illustration-ai-content.webp"
+          alt="content "
+          class="max-w-48"
+        />
+      </section>
+    </main>
+  </body>
 </html>

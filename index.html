@@ -19,11 +19,13 @@
     <link rel="stylesheet" href="src/output.css" />
   </head>
   <body
-    class="font-DMSans min-w-screen min-h-screen flex flex-col p-4 bg-gray-100"
+    class="font-DMSans w-full h-screen flex justify-center items-center p-4 bg-gray-100"
   >
-    <main class="grid grid-cols-1 gap-7">
+    <main
+      class="grid md:p-20 w-full h-full md:w-6xl grid-cols-1 md:grid-cols-4 md:grid-rows-4 gap-7"
+    >
       <section
-        class="flex flex-col bg-purple-500 text-white shadow-xl justify-center px-8 text-center min-w-full mx-auto p-10 rounded-lg items-center"
+        class="flex flex-col md:col-start-2 md:col-span-2 md:row-span-2 bg-purple-500 text-white shadow-xl justify-center text-center max-w-full min-w-full mx-auto p-10 md:pt-0 rounded-lg items-center"
       >
         <h1 class="text-5xl tracking-wide font-medium mb-5 leading-11">
           Social Media
@@ -38,60 +40,62 @@
         <p class="tracking-widest font-light">Over 4,000 5-star reviews</p>
       </section>
       <section
-        class="flex flex-col shadow-xs bg-white text-black justify-center text-left min-w-full mx-auto p-3 rounded-lg items-center"
+        class="flex md:col-span-1 md:col-start-2 md:row-start-3 md:row-span-1 flex-col shadow-xs bg-white text-black justify-center text-left max-w-full min-w-full mx-auto p-3 rounded-lg items-center"
       >
         <img
           src="/assets/images/illustration-multiple-platforms.webp"
           alt="Socials"
         />
-        <h1 class="font-medium text-2xl leading-6">
+        <h1 class="font-medium text-2xl md:pr-5 leading-6">
           Manage multiple accounts and platforms.
         </h1>
       </section>
       <section
-        class="flex flex-col shadow-xl bg-yellow-500 text-black text-left min-w-full mx-auto p-3 pb-0 rounded-lg"
+        class="flex md:items-center md:overflow-hidden md:col-start-3 md:row-start-3 flex-col md:col-span-1 md:row-span-1 shadow-xl bg-yellow-500 text-black text-left min-w-full max-w-full mx-auto p-3 pb-0 rounded-lg"
       >
-        <h1 class="font-medium text-2xl mb-3 leading-6">
+        <h1 class="font-medium text-2xl mb-3 leading-6 md:pr-5">
           Maintain a consistent posting schedule.
         </h1>
         <img
           src="/assets/images/illustration-consistent-schedule.webp"
           alt="schedule"
-          class="max-w-40"
+          class="max-w-40 md:max-w-full"
         />
       </section>
       <section
-        class="flex flex-col shadow-xl bg-purple-100 text-black text-center min-w-full mx-auto p-3 pb-0 rounded-lg"
+        class="flex md:overflow-hidden flex-col md:text-left md:col-start-4 md:col-span-1 md:row-span-3 shadow-xl bg-purple-100 text-black text-center min-w-full max-w-full mx-auto p-3 pb-0 rounded-lg"
       >
-        <h1 class="font-semibold py-2 mb-2 text-xl">
+        <h1
+          class="font-semibold py-2 md:pr-5 md:pb-0 md:pt-6 md:pl-5 mb-2 md:leading-5 text-xl"
+        >
           Schedule to social media.
         </h1>
         <img
           src="/assets/images/illustration-schedule-posts.webp"
           alt="Posts Schedule"
-          class="max-w-full"
+          class="max-w-full md:transform md:translate-5 md:h-84 md:object-cover md:object-left-top"
         />
-        <p class="py-4 px-7 leading-5">
+        <p class="py-4 px-7 leading-5 md:mt-6 md:pr-0">
           Optimize post timings to publish content at the perfect time for your
           audience.
         </p>
       </section>
       <section
-        class="flex flex-col shadow-xl bg-purple-500 text-white text-center min-w-full mx-auto py-6 px-15 pb-0 rounded-lg"
+        class="flex flex-col md:flex-row items-center md:px-3 md:text-left md:col-start-3 md:row-start-4 md:col-span-2 md:row-span-1 shadow-xl bg-purple-500 text-white text-center min-w-full max-w-full mx-auto py-6 px-15 pb-0 rounded-lg"
       >
         <img
           src="/assets/images/illustration-grow-followers.webp"
           alt="Follows"
-          class="max-w-full mb-7"
+          class="max-w-full mb-7 max-h-full"
         />
-        <h1 class="text-3xl leading-6 mb-6">
+        <h1 class="text-3xl md:pl-4 md:pr-5 md:leading-7 leading-6 mb-6">
           Grow followers with non-stop content.
         </h1>
       </section>
       <section
-        class="flex flex-col shadow-xs bg-white text-black text-left min-w-full mx-auto p-4 pb-4 rounded-lg"
+        class="flex flex-col md:col-start-2 md:row-start-4 md:col-span-1 md:row-span-1 shadow-xs bg-white text-black text-left min-w-full max-w-full mx-auto p-4 pb-4 rounded-lg"
       >
-        <h1 class="font-semibold text-4xl mb-1">>56%</h1>
+        <h1 class="font-semibold text-4xl md:text-5xl mb-1">>56%</h1>
         <p class="mb-3">faster audience growth</p>
         <img
           src="/assets/images/illustration-audience-growth.webp"
@@ -100,28 +104,32 @@
         />
       </section>
       <section
-        class="flex flex-col shadow-xs bg-yellow-100 text-black text-left min-w-full mx-auto p-6 rounded-lg"
+        class="flex flex-col md:items-center md:justify-center md:row-start-1 md:col-span-1 md:row-span-2 shadow-xs md:px-0 bg-yellow-100 text-black text-left min-w-full max-w-full mx-auto p-6 rounded-lg"
       >
-        <h1 class="font-semibold text-2xl mb-4 leading-6">
+        <h1
+          class="font-semibold md:pl-5 md:mb-6 md:text-4xl md:font-normal md:leading-8 text-2xl mb-4 leading-6"
+        >
           Create and schedule content
           <strong class="font-semibold italic text-purple-500">quicker.</strong>
         </h1>
         <img
           src="assets/images/illustration-create-post.webp"
           alt="create"
-          class="max-w-36"
+          class="max-w-36 md:pr-5 md:max-w-44"
         />
       </section>
       <section
-        class="flex flex-col shadow-xl bg-yellow-500 text-black text-left min-w-full mx-auto p-6 rounded-lg"
+        class="flex flex-col md:row-start-3 md:pr-3 pb-5 md:col-span-1 md:row-span-2 shadow-xl bg-yellow-500 text-black text-left min-w-full max-w-full mx-auto p-6 rounded-lg"
       >
-        <h1 class="font-semibold text-2xl pr-5 mb-5 leading-6">
+        <h1
+          class="font-semibold md:text-3xl md:font-normal md:leading-7 text-2xl pr-5 mb-5 leading-6"
+        >
           Write your content using AI.
         </h1>
         <img
           src="/assets/images/illustration-ai-content.webp"
           alt="content "
-          class="max-w-48"
+          class="max-w-48 md:h-80 md:w-full"
         />
       </section>
     </main>
